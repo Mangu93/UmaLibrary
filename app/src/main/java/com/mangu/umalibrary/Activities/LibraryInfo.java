@@ -43,14 +43,10 @@ public class LibraryInfo extends AppCompatActivity {
         tv_ah = (TextView) this.findViewById(R.id.tv_ah);
 
         scrollView = (LinearLayout)this.findViewById(R.id.llayout);
-        mFirebaseRef = new Firebase("https://sweltering-inferno-4301.firebaseio.com/images");
+        mFirebaseRef = new Firebase("ENTER HERE YOUR FIREBASE LINK");
         this.value = Integer.parseInt(getIntent().getStringExtra("Library"));
-        //fillLibrary(value);
     }
 
-    private void fillLibrary(int value) {
-        new LibraryChanger().execute(value);
-    }
 
     private void uploadImage(Bitmap bp) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
