@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UmaLibrary</string>
+    <string name="Selecciona">Selecciona una biblioteca</string>
+    <string name="InfTel">Informática-Teleco</string>
+    <string name="General">Biblioteca General</string>
+    <string name="Ciencias">Ciencias</string>
+    <string name="AquiHay">Aquí hay algunas fotos de la biblioteca elegida</string>
+    <string name="send_image">Enviar nueva imagen</string>
+    <string name="title_activity_flbutton">flbutton</string>
+    <string name="prueba">prueba</string>
+    <string name="Economicas">Economicas</string>
+</resources>
