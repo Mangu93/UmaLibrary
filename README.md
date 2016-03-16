@@ -24,3 +24,6 @@ If you are getting a build error complaining about duplicate files you can choos
             exclude 'META-INF/NOTICE'
         }
     }
+# Demostration
+
+[Android App demostration on Youtube](https://youtu.be/moZZQo79DDo)
