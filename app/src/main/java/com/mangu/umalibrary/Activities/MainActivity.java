@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Firebase.setAndroidContext(this);
-        mFirebaseRef = new Firebase("https://sweltering-inferno-4301.firebaseio.com/images");
+        mFirebaseRef = new Firebase("ENTER HERE YOUR FIREBASE LINK");
         button_general = (Button) this.findViewById(R.id.button_general);
         button_ciencias = (Button) this.findViewById(R.id.button_ciencias);
         button_inf = (Button) this.findViewById(R.id.button_inf);
